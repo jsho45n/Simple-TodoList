@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>todoList</title>
+    <link rel="stylesheet" href="todoList.css">
+    <script src="todoList.js"></script>
+</head>
+
+<body style="background-color: #A9A9A9;">
+    <h1 style="margin-left: 680px;">할일목록</h1>
+    <hr>
+    <div class="todoList">
+        <div class="todoList-todo">
+            <div>
+                <input id="todo" type="text" placeholder="할 일을 입력하세요.">
+                <button class="todosubmitbtn" onclick="createtoDo()">추가</button>
+                <button class="tododelbtn" onclick="deletetoDo()">전체삭제</button>
+            </div>
+            <div>
+                <ul id="inlist">
+
+                </ul>
+            </div>
+
+        </div>
+        <div>
+
+        </div>
+    </div>
+</body>
+
+</html>
